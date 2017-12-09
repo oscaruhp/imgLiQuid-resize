@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>imgLiquid Jquery Plugin Example</title>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src ="imgLiquid.js" type="text/javascript"></script>
+<style>
+.imgLiquid{background-color: #f1ecec;}
+</style>
+</head>
+<body>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center">
+<a href="http://develoteca.com">
+<img src="http://develoteca.com/wp-content/themes/site/img/develoteca.png" />
+</a>
+        <ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4331617637495482"
+     data-ad-slot="2764029251"></ins></div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <br> 
+   </div>
+
+   
+
+<h2>Plugin Activado</h2>
+
+<div class="imgLiquidNoFill imgLiquid" style="width:150px; height:200px;"> <a href="logo.jpg"  target="_blank" title="test"> <img alt="TEST" src="logo.jpg"/> </a> </div>
+
+<div style='clear:both'></div>
+<h2>Plugin desactivado</h2>
+<div class="imgLiquidFill imgLiquid" style="width:150px; height:200px;"> <a href="logo.jpg" target="_blank"  title="test"> <img alt="TEST" src="logo.jpg"/> </a> </div>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$(".imgLiquidFill").imgLiquid({fill:false, fadeInTime:500});
+		$(".imgLiquidNoFill").imgLiquid({fill:true});
+	});
+	</script>
+	
+</body>
+</html>
